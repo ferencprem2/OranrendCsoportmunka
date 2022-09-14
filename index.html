@@ -4,63 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<table>
-    <tr>
-        <th></th>
-        <th>Hétfő</th>
-        <th>Kedd</th>
-        <th>Szerda</th>
-        <th>Csütörtök</th>
-        <th>Péntek</th>
-    </tr>
-    <tr>
-        <th>1</th>
-        <td rowspan="2">Szakmai angol</td>
-        <td>Német</td>
-        <td rowspan="4">Asztali alk.</td>
-        <td rowspan="2">Német</td>
-        <td rowspan="2">Matematika</td>
-    </tr>
-    <tr>
-        <th>2</th>
-        <td>Töri</td>
-    </tr>
-    <tr>
-        <th>3</th>
-        <td rowspan="3">WebProg</td>
-        <td>Tesi</td>
-        <td rowspan="2">Irodalom</td>
-        <td>Fizika</td>
-    </tr>
-    <tr>
-        <th>4</th>
-        <td>Német</td>
-        <td>Irodalom</td>
-    </tr>
-    <tr>
-        <th>5</th>
-        <td>Fizika</td>
-        <td rowspan="3">IKT 2</td>
-        <td>Ofő</td>
-        <td>Tesi</td>
-    </tr>
-    <tr>
-        <th>6</th>
-        <td rowspan="2">Adatb 1</td>
-        <td rowspan="2">Matematika</td>
-        <td>Tesi</td>
-        <td>Magyar</td>
-    </tr>
-    <tr>
-        <th>7</th>
-        <td></td>
-        <td>Töri</td>
-    </tr>
-</table>
+<body class="bg-info">
+    <div class=""></div>
+    <div class="container align-middle">
+        <div class="row">
+            <table class="table table-bordered table-dark align-middle text-center  ">
+                <thead>
+                    <tr class="table-light">
+                        <th></th>
+                        <th scope="col" colspan="2">Hétfő</th>
+                        <th scope="col" colspan="3">Kedd</th>
+                        <th scope="col">Szerda</th>
+                        <th scope="col">Csütörtök</th>
+                        <th scope="col">Péntek</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td rowspan="3"><span class="align-top">CNC-2 </span> <span
+                                class="d-block align-middle ">SzIm</span> <span class="d-block">Hálózat I</span></td>
+                        <td rowspan="2"><span class="d-block">CAD-1</span> <span class="d-block">TNM</span> <span
+                                class="d-block">Szakmai Angol</span>
+                        </td>
+                        <td><span class="d-block">25</span><span class="d-block">VI</span><span
+                                class="d-block">Angol</span></td>
+                        <td><span class="d-block">29</span><span class="d-block">ZA</span><span
+                                class="d-block">Angol</span></td>
+                        <td><span class="d-block">84</span><span class="d-block">NyÜC</span><span
+                                class="d-block">Német</span></td>
+                        <td rowspan="4">Asztali alk.</td>
+                        <td rowspan="2">Német</td>
+                        <td rowspan="2">Matematika</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td colspan="3"><span class="d-block">33</span><span class="d-block">PLÉ</span><span
+                                class="d-block">Töri</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td rowspan="3" class="align-middle"><span class="d-block">CAD-1</span><span
+                                class="d-block">HGy</span><span class="d-block">WebProg</span></td>
+                        <td colspan="3"><span class="d-block">TT</span><span class="d-block">FL</span><span
+                                class="d-block">Tesi</span></td>
+                        <td rowspan="2">Irodalom</td>
+                        <td><span class="d-block">19</span><span class="d-block">Szlr</span><span
+                                class="d-block">Fizika</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td class="align-middle"><span class="d-block">12</span><span class="d-block">TNM</span><span
+                                class="d-block">Szakmai Angol</span></td>
+                        <td><span class="d-block">21</span><span class="d-block">VI</span><span
+                                class="d-block">Angol</span></td>
+                        <td><span class="d-block">57</span><span class="d-block">ZA</span><span
+                                class="d-block">Angol</span></td>
+                        <td><span class="d-block">85</span><span class="d-block">NyÜC</span><span
+                                class="d-block">Német</span></td>
+                        <td>Irodalom</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td rowspan="3"><span class="d-block">CAD-2</span><span class="d-block">MM</span><span
+                                class="d-block">IKT 2</span></td>
+                        <td colspan="3"><span class="d-block">19</span><span class="d-block">Szlr</span><span
+                                class="d-block">Fizika</span></td>
+                        <td rowspan="3"><span class="d-block">CAD-2</span><span class="d-block">MM</span><span
+                                class="d-block">IKT 2</span></td>
+                        <td><span class="d-block">33</span><span class="d-block">PLÉ</span><span
+                                class="d-block">Ofő</span></td>
+                        <td><span class="d-block">TT</span><span class="d-block">FL</span><span
+                                class="d-block">Tesi</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td rowspan="2"><span>CAD1</span><span class="d-block">PM</span> <span class="d-block">Adatb
+                                1</span></td>
+                        <td rowspan="2" colspan="3">
+                            <div class="wrapper">
+                                <div class="w-50 d-table-cell"><span class="d-block">33</span><span
+                                        class="d-block">KSM</span><span class="d-block">Matematika</span></div>
+                                <div class="w-50 d-table-cell"><span class="d-block">25</span><span
+                                        class="d-block">EG</span><span class="d-block">Matematika</span></div>
+                            </div>
 
 
+                        </td>
+
+                        <td><span class="d-block">TT</span><span class="d-block">FL</span><span
+                                class="d-block">Tesi</span></td>
+                        <td>Magyar</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td></td>
+                        <td><span class="d-block">33</span><span class="d-block">PLÉ</span><span
+                                class="d-block">Töri</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <div class="col-md-2"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
